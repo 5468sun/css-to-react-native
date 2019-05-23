@@ -9,6 +9,7 @@
     "test:watch": "jest --watch",
     "lint": "eslint src",
     "prepublish": "npm run build",
+    "prepare": "npm run build",
     "precommit": "lint-staged",
     "lint-staged": "lint-staged"
   },
